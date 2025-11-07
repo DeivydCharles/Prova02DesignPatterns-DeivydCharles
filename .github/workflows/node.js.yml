@@ -35,7 +35,7 @@ jobs:
     - run: npm install      
     - run: npm run start02
 
-    build03:
+  build03:
     name: Run Node.js 03
     runs-on: ubuntu-latest
     steps:
@@ -48,7 +48,7 @@ jobs:
     - run: npm install      
     - run: npm run start03
 
-    build04:
+  build04:
     name: Run Node.js 04
     runs-on: ubuntu-latest
     steps:
